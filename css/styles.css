@@ -84,9 +84,6 @@ img {
 
 .page-header {
   border-bottom: 1px solid #e7e9fc;
-  width: 1440px;
-  margin-right: auto;
-  margin-left: auto;
   box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
@@ -342,6 +339,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-align: center;
+  margin-bottom: 8px;
 }
 
 .social-list {
@@ -443,7 +441,6 @@ img {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  padding-right: 314px;
 }
 
 .portfolio-name,
@@ -518,7 +515,7 @@ img {
   margin-bottom: 16px;
 }
 
-.social-link-footer-container .social-list {
+.social-link-footer-container .social-list-item {
   gap: 16px;
 }
 
