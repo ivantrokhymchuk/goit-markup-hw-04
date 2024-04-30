@@ -47,11 +47,6 @@ img {
   padding-bottom: 120px;
 }
 
-/* svg {
-  width: 16px;
-  height: 16px;
-} */
-
 .social-link-icon {
   fill: #f4f4fd;
 }
@@ -123,7 +118,6 @@ img {
   letter-spacing: 0.02em;
   color: #2e2f42;
   padding: 24px 0;
-  /* background-color: #404bbf; */
 }
 
 .menu-link.current-page {
@@ -353,7 +347,6 @@ img {
 .social-list {
   display: flex;
   justify-content: center;
-  /* align-items: center; */
   gap: 24px;
 }
 
@@ -363,7 +356,6 @@ img {
   justify-content: center;
   width: 40px;
   height: 40px;
-  /* background-color: #4d5ae5; */
   border-radius: 50%;
   margin-top: 8px;
   gap: 24px;
@@ -515,7 +507,6 @@ img {
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
-  /* margin-left: 120px; */
 }
 
 .social-link-footer {
