@@ -47,10 +47,10 @@ img {
   padding-bottom: 120px;
 }
 
-svg {
+/* svg {
   width: 16px;
   height: 16px;
-}
+} */
 
 .social-link-icon {
   fill: #f4f4fd;
@@ -123,6 +123,13 @@ svg {
   letter-spacing: 0.02em;
   color: #2e2f42;
   padding: 24px 0;
+  /* background-color: #404bbf; */
+}
+
+.menu-link.current-page {
+  position: relative;
+  color: #404bbf;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .menu-link.current-page::after {
@@ -138,7 +145,6 @@ svg {
   margin-top: 20px;
   bottom: -1px;
   left: 0;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .logo-header,
@@ -361,7 +367,6 @@ svg {
   border-radius: 50%;
   margin-top: 8px;
   gap: 24px;
-  
 }
 
 .team-item .social-list-item:hover,
@@ -377,14 +382,13 @@ svg {
   width: 100%;
   height: 100%;
   background-color: #4d5ae5;
-    border-radius: 50%;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
+  border-radius: 50%;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-list-link:hover,
 .social-list-link:focus {
-   background-color: #404bbf;
+  background-color: #404bbf;
 }
 
 /* ====== PORTFOLIO STYLES ====== */
@@ -512,7 +516,6 @@ svg {
   justify-content: flex-start;
   align-items: flex-start;
   /* margin-left: 120px; */
-
 }
 
 .social-link-footer {
@@ -520,7 +523,7 @@ svg {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #FFFFFF;
+  color: #ffffff;
   margin-bottom: 16px;
 }
 
